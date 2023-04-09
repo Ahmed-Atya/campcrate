@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body class="cart">
+    <!--Start Header-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo-brand.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-8">
+                    <div class="brand-box">
+                        <img src="images/Your-shopping-Cart.png" alt="Your-shopping-Cart">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <ul class="list-unstyled nav-links text-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="book-trip.html">Book-A-Trip</a></li>
+                        <li><a href="book-a-crate.html">Book-A-Crate</a></li>
+                        <li><a href="custom-order.html">custom-order</a></li>
+                        <li><a href="basecamp.html">BaseCamp</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="index.html">About-Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+    <!--Cart Information-->
+    <div class="cart-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                   <form class="form first">
+                       <h3>Billing Address</h3>
+                       <input type="text" name="Name" placeholder="Full Name">
+                       <input type="text" name="Address" placeholder="Address Line1 Street Address">
+                       <input type="text" name="Address2" placeholder="Address Line2 Apartment Unit Etc">
+                       <input type="text" name="City" placeholder="City">
+                       <input type="text" name="State" placeholder="State">
+                       <input type="text" name="Zip-Code" placeholder="Zip Code">
+                       <input type="text" name="Phone" placeholder="Phone Number">
+                   </form>
+                   <form class="form">
+                     <h3>Shipping Address</h3>
+                     <div class="form-group">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Same as Billing Address
+                        </label>
+                        </div>
+                     </div>
+                     <input type="text" name="" placeholder="Full Name">
+                     <input type="text" name="" placeholder="Address Line1 Street Address">
+                     <input type="text" name="" placeholder="Address Line2 Apartment Unit Etc">
+                     <input type="text" name="" placeholder="City">
+                     <input type="text" name="" placeholder="State">
+                     <input type="text" name="" placeholder="Zip Code">
+                     <input type="text" name="" placeholder="Phone Number">
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <h3>Order summary</h3>
+                    <table>
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Description</th>
+                            <th>Dates</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                   <form class="form">
+                       <h3>Payment information</h3>
+                       <input type="text" name="" placeholder="Name on card">
+                       <input type="text" name="" placeholder="Card number">
+                       <input type="text" name="" placeholder="Expiration date (mm/yyyy)">
+                   </form>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="total text-center">
+                        <h3>Total:</h3>
+                        <span>$0.00</span>
+                        <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                AGREE TO THE TERMS OF SERVICE
+                              </label>
+                            </div>
+                            <input type="submit" value="SUBMIT ORDER">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Cart Information-->
+    <!--Start Map Section-->
+      <div class="map text-center">
+            <img src="images/rays.png" alt="map-ray">
+            <h2>Let's Go Camping!</h2>
+            <p>support@campcrate.net</p>
+            <div class="social-links">
+                <i class="fa fa-facebook fa-fw fa-lg"></i>
+                <i class="fa fa-instagram fa-fw fa-lg"></i>
+            </div>
+        </div>
+   <!--End Map Section-->
+   <!--Start Footer-->
+   <footer>
+       <p>© 2016 camp crate <span>PRIVACY POLICY <span>|</span> </span>   TERMS OF SERVICE</p>
+   </footer>
+   <!--End Footer-->
+   <!--Start Script Files-->
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/code.js"></script>
+     <!--End Script Files-->
+  </body>
+ </html>
